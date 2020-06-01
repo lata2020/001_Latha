@@ -1,0 +1,22 @@
+# Convert Decimal to binary
+
+dec_num = 144.0
+#bin = 011101101
+#print "decimal: ",type(dec)
+
+res_bin = hex(int(dec_num))                                  # convert decimal to binary using hex() function
+print "decimal: ", dec                                       # print the decimal no.
+print "result(converted to binary): ",res_bin                # print in hexadecimals
+
+
+
+
+# Convert binary to decimal
+
+bin_number = 011101101
+#print "decimal: ",type(dec)
+
+res_dec = float(bin_number)                                         # convert decimal to binary using float function
+print "binary no (in hexadecimals): ", hex(bin_number)              # print in hexadecimals
+print "binary no: ", bin_number                                     # print binary number. Converted to int
+print "result(converted to decimal): ",res_dec                      # print result in decimals
